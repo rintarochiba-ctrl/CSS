@@ -62,9 +62,9 @@
     border-collapse: separate;
     /* No24テーブルの境界線の幅を指定する */
     border-spacing: 10px;
+    /* No25マウスホバー時のポインターを変更する */
     cursor: pointer;
 }
 .table td{
     border: 1px solid black;
 }
-    /* No25マウスホバー時のポインターを変更する */
