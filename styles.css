@@ -1,0 +1,70 @@
+.font1{
+    /* No1フォントサイズを変更する */
+    font-size: 40px;
+    /* No2フォントの太さを変更する */
+    font-weight: bold;
+    /* No3フォントを変更する */
+    font-family: sans-serif;
+    /* No4文字を左寄せにする */
+    text-align: left;
+    /* No5文字を右寄せにする */
+    text-align: right;
+    /* No6文字を中央寄せにする */
+    text-align: center;
+    /* No7下線を引く */
+    text-decoration: underline;
+    /* No8文字間隔を変更する */
+    letter-spacing: 5px;
+    /* No9文字色を変更する */
+    color: brown;
+    /* No10背景色を変更する */
+    background-color: aqua;
+    /* No11背景画像を読み込む */
+    background-image: url(../エミリア.jpeg);
+    /* No12背景画像の繰り返しを止める */
+    background-repeat: no-repeat;
+    /* No13要素の幅を200pxにする */
+    width: 200px;
+    /* No14要素の高さを400pxにする */
+    height: 400px;
+    /* No15要素に外側の余白を指定する */
+    margin: 20px;
+    /* No16要素に内側の余白を指定する */
+    padding: 20px;
+    /* No17ボーダーを追加する */
+    border: 1px solid black;
+    /* No18スクロール可能な要素を作成する */
+    overflow: auto;
+    /* No19要素を非表示にする */
+    /* display: none; */
+}
+.image{
+    width: 600px;
+    position: relative;
+    z-index: 2;
+}
+.image2{
+    width: 600px;
+    /* No20画像を重ねる */
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    /* No21画像の重なり順を指定する */
+    z-index: 1;
+}
+.list{
+    /* No22リストの点を四角形にする */
+    list-style: square;
+}
+.table{
+    /* No23 4×4のテーブルを作成し、ボーダーを設定する */
+    border: 1px solid black;
+    border-collapse: separate;
+    /* No24テーブルの境界線の幅を指定する */
+    border-spacing: 10px;
+    cursor: pointer;
+}
+.table td{
+    border: 1px solid black;
+}
+    /* No25マウスホバー時のポインターを変更する */
