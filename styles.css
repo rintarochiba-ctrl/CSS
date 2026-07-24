@@ -1,4 +1,4 @@
-.font1{
+.text1{
     /* No1フォントサイズを変更する */
     font-size: 40px;
     /* No2フォントの太さを変更する */
@@ -16,7 +16,9 @@
     /* No8文字間隔を変更する */
     letter-spacing: 5px;
     /* No9文字色を変更する */
-    color: brown;
+    color: red;
+}
+.div{
     /* No10背景色を変更する */
     background-color: aqua;
     /* No11背景画像を読み込む */
@@ -35,8 +37,10 @@
     border: 1px solid black;
     /* No18スクロール可能な要素を作成する */
     overflow: auto;
+}
+.text2{
     /* No19要素を非表示にする */
-    /* display: none; */
+    display: none;
 }
 .image{
     width: 600px;
