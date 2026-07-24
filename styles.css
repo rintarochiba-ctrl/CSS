@@ -22,7 +22,7 @@
     /* No10背景色を変更する */
     background-color: aqua;
     /* No11背景画像を読み込む */
-    background-image: url(../エミリア.jpeg);
+    background-image: url(images/エミリア.jpeg);
     /* No12背景画像の繰り返しを止める */
     background-repeat: no-repeat;
     /* No13要素の幅を200pxにする */
