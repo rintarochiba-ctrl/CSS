@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.big-container {
+    width: 90%;
+    padding: 30px ;
+    border: 1px solid black;
+}
+
+.container {
+    width: 90%;
+    padding: 30px auto;
+}
+
+
+/* 上部分 */
+header {
+    height: 250px;
+    border: 1px solid #999;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 30px;
+    padding: 30px;
+}
+
+
+.logo {
+    border: 1px solid #999;
+}
+
+
+.header-right {
+    display: grid;
+    grid-template-rows: 60px 50px;
+    gap: 30px;
+}
+
+
+.title {
+    border: 1px solid #999;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 130px;
+    gap: 15px;
+}
+
+
+.buttons div {
+    border: 1px solid #999;
+}
+
+
+
+/* 下部分 */
+
+main {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 30px;
+}
+
+
+.left {
+    display: grid;
+    gap: 25px;
+}
+
+
+.box {
+    height: 90px;
+    border: 1px solid #999;
+}
+
+
+.small-area {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    justify-content: space-between;
+}
+
+
+.small-area div {
+    height: 120px;
+    border: 1px solid #999;
+}
+
+
+.right {
+    border: 1px solid #999;
+    height: 350px;
+}

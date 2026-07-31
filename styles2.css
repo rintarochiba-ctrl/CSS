@@ -1,0 +1,53 @@
+.text1{
+    /* No1.Flexプロパティを使用して、要素を横並びにしてください */
+    display: flex;
+    flex-direction: row;
+}
+.text2{
+    /* No2.Flexプロパティ、justify-contentプロパティを使用して両端寄せにしてください */
+    display: flex;
+    justify-content: space-between;
+}
+.text3{
+    /* No3.Flexプロパティ、justify-contentプロパティを使用して中央寄せにしてください */
+    display: flex;
+    justify-content: center;
+}
+.text4{
+    /* No4.Flexプロパティ、justify-contentプロパティを使用して左寄せにしてください */
+    display: flex;
+    justify-content: left;
+}
+.text5{
+    /* No5.Flexプロパティ、justify-contentプロパティを使用して右寄せにしてください */
+    display: flex;
+    justify-content: right;
+}
+.text6{
+    /* No6.Flexプロパティ、align-itemsプロパティを使用して上寄せにしてください */
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: flex-start;
+}
+.text7{
+    /* No7.Flexプロパティ、align-itemsプロパティを使用して下寄せにしてください */
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    align-items: flex-end;
+}
+.text8{
+    /* No8.Flexプロパティ、align-itemsプロパティを使用して垂直方向に中央寄せにしてください */
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+}
+.text9{
+    /* No9.Flexプロパティを使用して以下レイアウトを完成させてください */
+    display: flex;
+}
